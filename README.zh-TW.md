@@ -8,7 +8,7 @@ EmDash **原生外掛**，在單一後台頁面編輯圖片的**替代文字（a
 
 ## 相容性與限制
 
-- 已在本機 Cloudflare Workers 模擬環境，搭配 EmDash 與 `@emdash-cms/admin` **1.3.1** 測試。
+- 已在 EmDash 與 `@emdash-cms/admin` **1.3.1**、**1.4.0** 測試。
 - 這是可信任的原生外掛，需作為網站套件安裝，不能從 EmDash 的沙盒外掛 registry 安裝。
 - 後台頁只列出 MIME 類型以 `image/` 開頭的媒體，不含音訊等其他檔案。
 - 儲存時只寫入既有媒體紀錄的 `alt` 與 `caption`；檔名、儲存鍵與檔案本體不變。

@@ -8,7 +8,7 @@ An EmDash **native plugin** for editing image **alt text** and **captions** from
 
 ## Compatibility and requirements
 
-- Tested with EmDash and `@emdash-cms/admin` **1.3.1** in a local Cloudflare Workers simulation.
+- Tested with EmDash and `@emdash-cms/admin` **1.3.1** and **1.4.0**.
 - This is a trusted native plugin, not a sandboxed plugin. Install it as a site dependency; it cannot be installed from the EmDash sandboxed-plugin registry.
 - The admin page lists media whose MIME type starts with `image/`. Audio and other files are omitted.
 - Saving writes only `alt` and `caption` on the existing media record. Filenames, storage keys, and binary objects are left unchanged.
